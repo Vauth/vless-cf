@@ -3,22 +3,28 @@ name = "server-sg" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
-compatibility_date = "2023-05-26"
+compatibility_date = "2025-02-24"
+
 [[routes]]
 patteren = "sg1.susahsinyal.my.id"
 custom_domain = true
+
 [[routes]]
 patteren = "space.byu.id.sg1.susahsinyal.my.id"
 custom_domain = true
+
 [[routes]]
 patteren = "104.19.142.108.sg1.susahsinyal.my.id"
 custom_domain = true
+
 [[routes]]
 patteren = "104.19.143.108.sg1.susahsinyal.my.id"
 custom_domain = true
+
 [[routes]]
 patteren = "ruangguru.com.sg1.susahsinyal.my.id"
 custom_domain = true
+
 [[routes]]
 patteren = "ir.huya.com.sg1.susahsinyal.my.id"
 custom_domain = true
